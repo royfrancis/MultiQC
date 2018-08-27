@@ -14,6 +14,10 @@
     * Fixed bug where read counts and base pair yields were not displaying in tables correctly.
     * Number formatting for these fields can now be customised in the same way as with other modules, as described [in the docs](http://multiqc.info/docs/#number-base-multiplier)
 
+* **qorts**
+    * qorts default module name changed to qorts/summary. Also checks for filename to be 'QC.summary.txt'
+    * qorts/biotype_counts added. Checks for filename 'QC.biotypeCounts.txt' and first row must contain 'BIOTYPE'.
+    * qorts/chromosome_counts added. Checks for filename 'QC.chromCounts.txt' and first row must contain 'CHROM'.
 
 ## [MultiQC v1.6](https://github.com/ewels/MultiQC/releases/tag/v1.6) - 2018-08-04
 
