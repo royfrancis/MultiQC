@@ -321,9 +321,18 @@ preseq/real_counts:
 prokka:
     contents: 'contigs:'
     num_lines: 2
-qorts:
+qorts/summary:
+    fn: 'QC.summary.txt'
     contents: 'BENCHMARK_MinutesOnSamIteration'
     num_lines: 100
+qorts/biotype_counts:
+    fn: 'QC.biotypeCounts.txt'
+    num_lines: 1
+    contents: 'BIOTYPE'
+qorts/chromosome_counts:
+    fn: 'QC.chromCounts.txt'
+    num_lines: 1
+    contents: 'CHROM'
 qualimap/bamqc/genome_results:
     fn: 'genome_results.txt'
 qualimap/bamqc/coverage:
